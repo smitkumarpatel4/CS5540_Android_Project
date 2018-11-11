@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "193870363580",
+    "firebase_url": "https://personalfeedapp.firebaseio.com",
+    "project_id": "personalfeedapp",
+    "storage_bucket": "personalfeedapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193870363580:android:c056fd0a8a581c19",
+        "android_client_info": {
+          "package_name": "com.munachimsoani.android.personalfeedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193870363580-u14cr1a2utp11tvcmi4p9ism1fonktqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB04VQCH6Y5h-yl6I-d28c1TygZcQGRN9g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

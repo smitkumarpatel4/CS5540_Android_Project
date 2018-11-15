@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/sign_out_menu"
+        android:id="@+id/chat_out_menu"
         android:title="@string/chat_sign_out"
         app:showAsAction="never"/>
 

@@ -162,6 +162,12 @@ public class SportsActivity extends AppCompatActivity implements LoaderManager.L
 //                        startActivity(intentBook);
 //                        finish();
 //                        break;
+
+                    case R.id.nav_chat:
+                        Intent intenChat = new Intent(SportsActivity.this,ChatActivity.class);
+                        startActivity(intenChat);
+                        break;
+
                     case R.id.nav_logout:
                         mAuth.signOut();
                         Intent intentLogout = new Intent(SportsActivity.this, LoginActivity.class);

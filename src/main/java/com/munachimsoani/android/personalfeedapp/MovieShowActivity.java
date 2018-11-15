@@ -166,6 +166,11 @@ public class MovieShowActivity extends AppCompatActivity implements LoaderManage
                         showSearchDialogBox();
                         break;
 
+                    case R.id.nav_chat:
+                        Intent intenChat = new Intent(MovieShowActivity.this,ChatActivity.class);
+                        startActivity(intenChat);
+                        break;
+
                     case R.id.nav_logout:
                         mAuth.signOut();
                         Intent intentLogout = new Intent(MovieShowActivity.this, LoginActivity.class);
